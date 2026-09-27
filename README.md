@@ -1,21 +1,28 @@
-# PeriRuta
+# PeriPlanning
 
 ## Definición del problema
-Mi padre es perito de seguros autónomo desde hace muchos años. Si bien últimanente hace varias peritaciones por videoconferencia, también sigue haciendo de vez en cuando peritaciones presenciales en Málaga. Normalmente, las organiza en orden de llegada teniendo en cuenta que estas peritaciones suelen hacerse por la mañana (por lo que a veces los asegurados sólo están disponibles en ciertas franjas horarias).
+Mi padre es perito de seguros autónomo desde hace muchos años. Todos los días, en su plataforma, se le añaden peritaciones en una tabla. En esa tabla están mezclados muchos tipos diferentes de peritaciones: diferentes estados (nuevo/reabierto), de diferentes aseguradoras, y que deben ser vistos de formas diferentes (videoperitación o presencial).
 
-Al organizarlas en orden de llegada, le suele pasar que hay una secuencia de peritaciones muy incómoda, habiendo una en una punta de Málaga, otra en el otro lado de la ciudad, y la tercera al lado de la primera. Si no hay muchas peritaciones en el día lo puede solucionar sobre la marcha, pero cuando lleva diez para ver en la mañana se vuelve muy caótico.
+Hay una serie de condiciones que se deben cumplir:
+1. Si el siniestro es de Meridiano, Santander, AXA empresas o Mapfre empresas, siempre debe ser visto presencialmente.
+2. Si la cuantía aproximada de los daños supera los 4000€, debe ser visto presencialmente.
+3. Para los siniestros de Mapfre empresas y AXA empresas, si el perito no contacta con el asegurado en un plazo de dos días, y no lo cierra en un plazo de 6 días desde el contacto con el asegurado, el perito sufre una penalización.
+4. Los siniestros nuevos con más de 30 días sin haber sido vistos penalizan al perito.
+5. Para todos los siniestros, si el asegurado no ha sido contactado en un plazo de 4 días, el perito es penalizado.
 
-Además, también sucede que cuando llama al asegurado por teléfono para decirle que va de camino, éste le dice en el último momento que no puede porque le ha surgido algo, lo que le cambia completamente los planes estando ya realizando las peritaciones.
-
-Esto puede provocar un retraso considerable en las peritaciones, generando un efecto bola de nieve por retrasos acumulados tras varias peritaciones, por lo que es posible que no puedan cumplirse todas las programadas para ese día.
+Suelen entrar alrededor de 15 o 20 expedientes nuevos por semana, por lo que el trabajo acumulado acaba volviendo muy caótico el mantener un orden y metodología.
 
 ## Conocimiento acerca del problema
 
-Como ya he mencionado, mi padre lleva alrededor de 30 años trabajando de perito de seguros autónomo. Desde hace ya algunos años, en verano, le suelo acompañar en el coche para que no esté solo muchas horas en la carretera, por lo que estos problemas los conozco de primera mano. Todo lo mencionado son cosas que le suceden al menos una vez al mes, normalmente más, por lo que son problemas reales.
+Como ya he mencionado, mi padre lleva alrededor de 30 años trabajando de perito de seguros autónomo. Desde que yo era pequeño, de su jornada laboral, suele gastar aproximadamente la mitad en la organización por este sistema arcaico. Esto hace que se pierda mucho tiempo en la organización del trabajo, lo que es contraproducente porque al ser autónomo cobra cuantías por número y cuantía en cada peritación.
 
-## Objetivo
+Al automatizar este proceso, la productividad aumenta mucho, lo que acaba resultando en mayor ganancia económica.
 
-Obtener una ruta óptima que incluya todas las peritaciones del día teniendo en cuenta las restricciones del problema, con el fin de minimizar el tiempe consumido en el día.
+## Ejemplo de tabla
+
+Los datos son censurados porque contienen información potencialmente sensible.
+
+<img src="../../Media/Fotos/0_3_tablaPerito.jpg" width="100%">
 
 ## Documentos
 

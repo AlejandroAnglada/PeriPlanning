@@ -6,14 +6,15 @@ He decidido pasar a limpio en mi tablet ambas tarjetas.
 
 ## Justificación de despliegue en la nube
 
-Se justifica un despliegue en la nube por la necesidad de acceso constante a la planificación de la ruta mientras se perita, para actualizarla en tiempo real, además de la necesidad de recalcular constantemente la ruta cada vez que haya un cambio en las peritaciones.
+Se justifica un despliegue en la nube por el cálculo constante de la heurística para ordenar las peritaciones por prioridad. Hacer esto es costoso, no vale con un simple algoritmo de ordenación, y con un despliegue en la nube el sistema es escalable si la demanda computacional se vuelve elevada al haber un gran número de peritaciones entrantes (por ejemplo, por lluvias constantes o desastres meteorológicos, como pasó con la DANA de Valencia).
+
+Además, con un despliegue en la nube el usuario es capaz de enviar la tabla desde la oficina y consultarla cuando esté peritando desde cualquier dispositivo.
+
+Por último, a pesar de que puede darse que el usuario no acceda a la tabla en un periodo de tiempo, el sistema debe ser capaz de recalcular las prioridades de forma periódica, pues si el tiempo transcurre la heurística proporciona prioridades diferentes.
 
 ## Datos del problema
 
-Se distinguen entre dos tipos de datos: los constantes, y los aportados por el cliente.
-
-- **Constantes**. Mi padre tiene una hoja de cálculo Excel que me ha facilitado con los tiempos aproximados de desplazamiento entre los distritos de Málaga y La Línea de la Concepción (que es la ciudad en la que reside mi familia).
-- **Aportados por el cliente**. Se debe aportar cada peritación para que se pueda ir calculando la ruta. Lo vital es conocer el distrito donde se encuentra el lugar a peritar, la franja horaria en la que está disponible el asegurado y el nombre para poder identificarlo.
+Se posee como datos del problema la tabla con las peritaciones entrantes.
 
 ## Configuración del repositorio
 

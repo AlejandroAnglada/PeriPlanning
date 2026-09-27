@@ -12,6 +12,10 @@ Además, con un despliegue en la nube el usuario es capaz de enviar la tabla des
 
 Por último, a pesar de que puede darse que el usuario no acceda a la tabla en un periodo de tiempo, el sistema debe ser capaz de recalcular las prioridades de forma periódica, pues si el tiempo transcurre la heurística proporciona prioridades diferentes.
 
+## Justificación de parsing de fichero
+
+Los datos proporcionados por el fichero CSV de las peritaciones no están listos para ser usados. Se requiere de un cómputo para ver cuántos días restan antes de las penalizaciones en función de las empresas. Entonces, el sistema debe parsear, normalizar y recalcular los plazos normales y no usar los propuestos por el fichero original.
+
 ## Datos del problema
 
 Se posee como datos del problema la tabla con las peritaciones entrantes.

@@ -10,6 +10,8 @@ Hay una serie de condiciones que se deben cumplir:
 4. Los siniestros nuevos con más de 30 días sin haber sido vistos penalizan al perito.
 5. Para todos los siniestros, si el asegurado no ha sido contactado en un plazo de 4 días, el perito es penalizado.
 
+La penalización que se comenta, supone una disminución del 5% de la minuta que cobra el perito. Esta penalización es acumulable; es decir, si se duplica el tiempo (4 días para Mapfre y Axa, y 8 días para el resto de aseguradoras), se marca como bloqueado y se debe comunicar al supervisor que se ha contactado con el asegurado para que desbloquee el expediente; y si vuelve a pasar el plazo (total de 6 días para Mapfre y Axa, y 12 días para el resto de aseguradoras), se devuelve el expediente y se asigna a otro perito, perdiendo además la minuta asociada.
+
 Suelen entrar alrededor de 15 o 20 expedientes nuevos por semana, por lo que el trabajo acumulado acaba volviendo muy caótico el mantener un orden y metodología.
 
 ## Conocimiento acerca del problema

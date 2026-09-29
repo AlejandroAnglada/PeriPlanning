@@ -20,4 +20,4 @@ El cumplimiento de este milestone implica la generación de un programa funciona
 
 ### [M3] Cálculo de minutas acumuladas a final de mes
 
-Se desarrolla y entrega un PMV cuyo objetivo es el cómputo del importe a percibir tras aplicar impuestos (es decir, 21% de IVA a cada minuta, menos la penalización pertinente, y teniendo en cuenta la cuota de autónomos a deducir en función del tramo económico) dada la tabla de minutas de los contratos cerrados.
+Se desarrolla y entrega un PMV cuyo objetivo es el cómputo del importe a percibir tras aplicar impuestos dada la tabla de minutas de los contratos cerrados.

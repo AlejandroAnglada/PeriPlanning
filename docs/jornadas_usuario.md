@@ -1,0 +1,9 @@
+# Jornadas de usuario
+
+Las jornadas de usuario describen la rutina que siguen los usuarios con respecto al sistema que estamos implementando. En mi caso se describe la de una persona, que es **Manuel Anglada Romero**, el perito.
+
+## Jornada de Usuario 1: Manuel Anglada Romero
+
+Cada vez que reciba el listado con las peritaciones, el usuario sube el CSV y accede al sistema. Esto es una vez al día, que es cuando la plataforma actualiza la tabla. Normalmente accede a la tabla y al sistema desde el ordenador de la oficina, pero si lo necesita accede desde el teléfono móvil. Una vez que entre al sistema, consulta las peritaciones que tiene aún pendientes. De un vistazo puede saber qué peritaciones son urgentes. Con la peritación pertinente seleccionada, debe o bien llamar al asegurado si aún no ha sido contactado o programar la peritación presencial si ya fue contactado. Una vez que ha contactado o peritado al asegurado, lo marca en el sistema. De no hacerlo, el sistema es capaz de reflejarlo con la siguiente actualización de la tabla. Una vez hecho esto, se desconecta del sistema.
+
+Una vez que llega el último día del mes, el usuario accede al sistema e introduce de nuevo una tabla en formato CSV. En este caso se trata de la tabla de minutas cobradas por peritación, que además permite ver si se ha ejecutado alguna penalización en los pagos. Una vez introducida la tabla, consulta cuánto dinero se espera que se le ingrese este mes, y cuánto se espera que tenga disponible tras reservar el IVA pertinente (que le es cobrado cada tres meses, y corresponde a un 21% del total, debido a que su labor cae en la categoría de IVA general) y la cuota de autónomos (que depende del tramo económico del mes).

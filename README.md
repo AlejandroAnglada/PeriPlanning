@@ -12,6 +12,8 @@ Hay una serie de condiciones que se deben cumplir:
 
 La penalización que se comenta, supone una disminución del 5% de la minuta que cobra el perito. Esta penalización es acumulable; es decir, si se duplica el tiempo (4 días para Mapfre y Axa, y 8 días para el resto de aseguradoras), se marca como bloqueado y se debe comunicar al supervisor que se ha contactado con el asegurado para que desbloquee el expediente; y si vuelve a pasar el plazo (total de 6 días para Mapfre y Axa, y 12 días para el resto de aseguradoras), se devuelve el expediente y se asigna a otro perito, perdiendo además la minuta asociada.
 
+En resumen; **se requiere extraer, analizar y filtrar datos extraídos de la tabla** para poder solucionar el problema.
+
 Suelen entrar alrededor de 15 o 20 expedientes nuevos por semana, por lo que el trabajo acumulado acaba volviendo muy caótico el mantener un orden y metodología.
 
 ## Conocimiento acerca del problema
@@ -24,8 +26,15 @@ Al automatizar este proceso, la productividad aumenta mucho, lo que acaba result
 
 Los datos son censurados porque contienen información potencialmente sensible.
 
-<img src="../../Media/Fotos/0_3_tablaPerito.jpg" width="100%">
+<img src="Media/Fotos/0_3_tablaPerito.jpg" width="100%">
+
+## Configuración
+
+* Licencia: GNU General Public License, versión 3.
+* Control de versiones: Uso de git (mediante clave SSH censurada, véase captura abajo) aplicado a cualidades de desarrollo ágil (creación de ramas, issues, milestones, pipelines CI/CD, etc).
+<img src="../../Media/Fotos/0_2_ssh.jpg" width="40%">
 
 ## Documentos
 
 Se puede consultar lo relativo al objetivo 0 [aquí](/Objetivos/Objetivo_0/objetivo-0.md).
+Se puede consultar lo relativo al objetivo 1 [aquí](/docs).

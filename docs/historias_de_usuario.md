@@ -4,8 +4,7 @@ Las historias de usuario reflejan los problemas a los que se enfrentan los usuar
 
 ### [HU001] (Interna) Parsing de fichero CSV
 
-La información del CSV que recibe Manuel no es clara. Tiene varias columnas que no son relevantes para lo que es pertinente, que es peritar el mayor número de informes posible (los detalles de cómo se presentan esos datos están definidos [aquí](../docs/jornadas_usuario.md) y [aquí](#hu003-diferenciación-entre-informes-nuevos-y-reabiertos)) [M0].
-
+La información del CSV que recibe Manuel no es clara. Tiene varias columnas que no son relevantes para lo que es pertinente, que es peritar el mayor número de informes posible [M0].
 ### [HU002] Clasificación de informes en función de urgencia
 
 No tengo una forma razonable de clasificar en función de la urgencia las peritaciones entrantes manualmente, debido a la naturaleza desordenada en la que me llegan. Cada vez que me organizo el día para tratar de mantener una metodología, acabo viéndome en un lío de diferentes empresas que acaba siendo muy difícil de manejar y da lugar a penalizaciones por tiempo. Me gustaría tener entonces un método para poder clasificar los informes entre urgentes y no urgentes, con el propósito de evitar las penalizaciones derivadas de no atender los partes a tiempo [M1].

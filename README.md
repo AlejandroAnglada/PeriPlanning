@@ -37,4 +37,7 @@ Los datos son censurados porque contienen información potencialmente sensible.
 ## Documentos
 
 Se puede consultar lo relativo al objetivo 0 [aquí](/Objetivos/Objetivo_0/objetivo-0.md).
-Se puede consultar lo relativo al objetivo 1 [aquí](/docs).
+Se pueden consultar los perfiles de usuario [aquí](/docs/personas.md).
+Se pueden consultar las jornadas de usuario [aquí](/docs/jornadas_usuario.md).
+Se pueden consultar las historias de usuario [aquí](/docs/historias_de_usuario.md).
+Se pueden consultar los milestones [aquí](/docs/milestones.md).

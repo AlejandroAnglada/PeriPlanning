@@ -36,8 +36,9 @@ Este producto mínimo será considerado viable si:
 
 ### [M4] Acceso distribuido al sistema
 
-Este milestone usa como problema base la historia de usuario HU007, y parte del milestone M3 como base. El producto es empaquetado y entregado como un artefacto desplegado en la nube, permitiendo que Manuel acceda a toda funcionalidad desde cualquier dispositivo.
+Este milestone usa como problema base la historia de usuario HU007, y parte de las funcionalidades de los milestones M2 y M3. El producto es empaquetado y entregado como un artefacto desplegado en la nube, permitiendo que Manuel acceda a toda funcionalidad desde cualquier dispositivo.
 
 Este producto mínimo es considerado viable cuando:
 1. El flujo con el que se cierra la historia de usuario es: HU -> issue -> commit.
 2. Manuel puede acceder desde cualquiera de sus dispositivos a las funcionalidades de M3 y M2.
+3. 

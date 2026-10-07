@@ -4,7 +4,7 @@ Las historias de usuario reflejan los problemas a los que se enfrentan los usuar
 
 ### [HU001] (Interna) Parsing de fichero CSV
 
-Debido a cómo está formateada la información acerca de las peritaciones, se necesita hacer un parsing, normalizado y procesado de la información pues no está inmediatamente disponible para su uso [M0].
+La información del CSV no está inmediatamente disponible para ser usada. Se debe tener una forma de obtener los datos en un formato que podamos leer fácilmente.
 
 ### [HU002] Clasificación de informes en función de urgencia
 
@@ -28,4 +28,4 @@ Me gustaría además disponer de alguna forma de ordenar todos los informes para
 
 ### [HU007] Acceder al sistema desde cualquier parte
 
-Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina.
+Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina [M4].

@@ -1,27 +1,43 @@
 # Milestones
 
-Hitos del proyecto. Cada milestone representa un producto mínimamente viable (PMV), que es la versión con funcionalidad mínima que cumple con lo que dice el milestone (y nada más).
+Hitos del proyecto. Cada milestone representa un producto mínimamente viable (PMV), que es una definición sobre el problema que se aborda, cómo se entrega al objetivo y cómo se considera viable.
 
-### [M0] Modelado del problema y datos
+### [M0] Modelado del problema y datos (interna)
 
-Se desarrolla y entrega un PMV cuyo objetivo es el modelado y procesado de los datos, que son introducidos en formato CSV, para su posterior uso.
+Este milestone parte de la historia de usuario HU001, y se parte del CSV que le es proporcionado a Manuel. El producto es empaquetado y entregado como una versión del repositorio, de tal manera que los desarrolladores pueden partir de este milestone para el correcto desarrollo de los siguientes.
 
-El cumplimiento de este milestone implica el desarrollo de una herramienta de parsing, alojada en este repositorio y documentada correctamente (casos de uso, extremos, precondiciones y poscondiciones).
+Se considera entonces que el producto mínimo es viable cuando:
+1. El flujo con el que la historia de usuario relacionada se cierra es: HU -> issue -> commit.
+2. Los datos preparados se corresponden a un CSV real, pudiendo ser contrastado por Manuel.
 
-### [M1] Lógica de negocio
+### [M1] Lógica de negocio (interna)
 
-Se desarrolla y entrega un PMV cuyo objetivo es la clasificación de informes periciales según la urgencia (HU002), la novedad (HU003) y la presencialidad (HU004) de la peritación.
+Este milestone se desarrolla sobre las historias de usuario HU002, HU003 y HU004, y se parte del milestone 0. El producto es empaquetado y entregado como una versión del repositorio, permitiendo que los desarrolladores sean capaces de partir de este milestone para poder desarrollar los siguientes.
 
-Al cumplir este milestone, se garantiza que se ha desarrollado una herramienta que permite clasificar informes según diferentes métricas, habiendo sido probada de manera acorde.
+Se considera que el producto mínimo es viable cuando:
+1. El flujo con el que las historias de usuarios se cierran es: HU -> issue -> commit.
+2. Los datos obtenidos mediante el producto mínimo viable de M0 pueden ser categorizados en función de los criterios definidos en las historias de usuario, tal y como Manuel los clasificaría manualmente.
 
-### [M2] Ordenación de informes
+### [M2] Ordenación de informes (interna)
 
-Se desarrolla y entrega un PMV cuyo objetivo es la ordenación de los informes (HU006) en función de una heurística que toma como elemento de máxima prioridad la urgencia (tiempo hasta que se penalice el informe), seguida de la novedad del informe, y por último la presencialidad obligatoria de la peritación, en ese orden.
+Este milestone parte de la historia de usuario HU006, usando como base el milestone 1. El producto es empaquetado y entregado como una versión más del repositorio, permitiendo que Manuel logre ver de forma ordenada los partes.
 
-El cumplimiento de este milestone implica la generación de un programa funcional, testeado, que permite al usuario consultar de la tabla proporcionada cuál es recomendable que sea la primera peritación para minimizar posibles penalizaciones.
+Consideramos que el producto mínimo es viable cuando:
+1. El flujo con el que se cierra la historia de usuario es: HU -> issue -> commit.
+2. Los datos obtenidos del milestone 0 son clasificados tal y como Manuel lo haría manualmente, y además Manuel tiene la capacidad de obtener cuál(es) son los partes más prioritarios.
 
-### [M3] Cálculo de minutas acumuladas a final de mes
+### [M3] Minutas acumuladas a final de mes (interna)
 
-Se desarrolla y entrega un PMV cuyo objetivo es el cómputo del importe a percibir tras aplicar impuestos dada la tabla de minutas de los contratos cerrados.
+Este milestone parte de la historia de usuario HU005. El producto es empaquetado y entregado como una versión del repositorio, de tal manera que Manuel puede saber cuánto cobrará en un mes con el CSV de entrada.
 
-Tras cumplir este milestone se garantiza que el sistema puede calcular correctamente el sueldo a percibir a final de mes tras aplicar impuestos (IVA y cuota de autónomos en función de tramo económico).
+Este producto mínimo será considerado viable si:
+1. El flujo con el que se cierra la historia de usuario es: HU -> issue -> commit.
+2. El sueldo obtenido en función de los datos procesados del CSV de minutas se corresponde al sueldo real que Manuel percibe a final del mes usado como referencia.
+
+### [M4] Acceso distribuido al sistema
+
+Este milestone usa como problema base la historia de usuario HU007, y parte del milestone M3 como base. El producto es empaquetado y entregado como un artefacto desplegado en la nube, permitiendo que Manuel acceda a toda funcionalidad desde cualquier dispositivo.
+
+Este producto mínimo es considerado viable cuando:
+1. El flujo con el que se cierra la historia de usuario es: HU -> issue -> commit.
+2. Manuel puede acceder desde cualquiera de sus dispositivos a las funcionalidades de M3 y M2.

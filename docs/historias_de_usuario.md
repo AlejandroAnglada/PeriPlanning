@@ -25,3 +25,7 @@ A final de mes se me presenta una tabla con las minutas asociadas a cada informe
 ### [HU006] Obtener informe más prioritario
 
 Me gustaría además disponer de alguna forma de ordenar todos los informes para poder ver rápidamente el más prioritario. Así me resultaría más sencillo poder ver cuál es el informe al que se le debe dar más prioridad, para así priorizarlo [M2].
+
+### [HU007] Acceder al sistema desde cualquier parte
+
+Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina.

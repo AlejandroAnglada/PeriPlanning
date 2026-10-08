@@ -2,26 +2,24 @@
 
 Las historias de usuario reflejan los problemas a los que se enfrentan los usuarios del sistema. Están asociadas al perfil de **Manuel Anglada Romero**.
 
-### [HU001] Clasificación de informes en función de urgencia
+### [HU001] Clasificación de informes
 
-No tengo una forma razonable de clasificar en función de la urgencia las peritaciones entrantes manualmente, debido a la naturaleza desordenada en la que me llegan. Cada vez que me organizo el día para tratar de mantener una metodología, acabo viéndome en un lío de diferentes empresas que acaba siendo muy difícil de manejar y da lugar a penalizaciones por tiempo. Me gustaría tener entonces un método para poder clasificar los informes entre urgentes y no urgentes, con el propósito de evitar las penalizaciones derivadas de no atender los partes a tiempo [M0] [M1].
+Tal y como se me presenta la tabla, no es fácil comprobar de un vistazo qué características tiene cada uno de los informes. Esto da lugar a un desorden que puede acabar haciendo que sufra penalizaciones, se acumule el trabajo y baje mucho el rendimiento. Entonces, es imperativo que se puedan ordenar los informes en función de su urgencia para evitarlo.
 
-### [HU002] Diferenciación entre informes nuevos y reabiertos
+Hay varios [criterios](jornadas_usuario.md#criterios_de_penalizacion) que determinan si soy penalizado o no.
 
-Debido al trabajo concurrente de varias personas sobre la misma tabla, muchas veces aparecen de forma desordenada los informes. En principio deberían aparecer primero los nuevos y luego los reabiertos, y no siempre es así, por lo que puedo pensar que hay menos informes nuevos de los que hay realmente, y los acabo dejando sin deber hacerlo así para último lugar, lo que concluye en penalizaciones por no contactar al asegurado en la ventana de tiempo mínima [M0] [M1].
+### [HU002] Heurística de urgencia (interna)
 
-### [HU003] Clasificación de informes en función de presencialidad
+Para poder resolver el problema de la ordenación de informes, se debe determinar con precisión _qué_ es la urgencia, y modelar una heurística en base a esa determinación.
 
-Opino que me resultaría muy conveniente tener clasificadas las peritaciones en función de si es obligatorio hacerlas presencialmente o, por el contrario, si puede hacerlas por videoperitación [M0] [M1].
+### [HU003] Cálculo de minutas a final de mes
 
-### [HU004] Obtener informe más prioritario
+A final de mes se me presenta una tabla con las minutas asociadas a cada informe que ha cerrado. Esta tabla posee las minutas en bruto, es decir, antes de que se le aplique el 21% de IVA. Además, no refleja las penalizaciones que han podido aplicarse al informe. Por último, todos los meses se me cobra una cuota de autónomos en función de lo que haya facturado. Todos estos detalles hacen que calcular lo que cobro en el mes sea difícil y lento.
 
-Me gustaría además disponer de alguna forma de ordenar todos los informes para poder ver rápidamente el más prioritario para minimizar las penalizaciones. Así me resultaría más sencillo poder ver cuál es el informe al que se le debe dar más prioridad, para así priorizarlo [M2].
+### [HU004] Cálculo de IVA y cuota de autónomos (interna)
 
-### [HU005] Cálculo de minutas acumuladas a final de mes
+Con el objetivo de calcular las minutas a final de mes, en función del CSV con las minutas, se tienen que aplicar correctamente las penalizaciones (si hubiese), el IVA y la cuota de autónomos.
 
-A final de mes se me presenta una tabla con las minutas asociadas a cada informe que ha cerrado. Esta tabla posee las minutas en bruto, es decir, antes de que se le aplique el 21% de IVA. Además, no refleja las penalizaciones que han podido aplicarse al informe. Por último, todos los meses se me cobra una cuota de autónomos en función de lo que haya facturado. Todos estos detalles hacen que calcular lo que cobro en el mes sea difícil y lento [M3].
+### [HU005] Acceder al sistema desde cualquier parte
 
-### [HU006] Acceder al sistema desde cualquier parte
-
-Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina [M4].
+Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina.

@@ -14,4 +14,4 @@ A final de mes se me presenta una tabla con las minutas asociadas a cada informe
 
 ### [HU003] Acceder al sistema desde cualquier parte
 
-Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y gestionar todo desde el teléfono igual que lo hago desde mi oficina.
+Muchas veces la actualización de la tabla me pilla en la calle peritando, por lo que tengo que verla desde el teléfono móvil. Sería conveniente poder ver y consultar todo desde el teléfono igual que lo hago desde mi oficina.

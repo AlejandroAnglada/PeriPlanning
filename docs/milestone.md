@@ -12,7 +12,9 @@ Se considera que el producto mínimo es viable cuando existe una entidad en el l
 
 Este milestone aborda el problema definido en la historia de usuario 1, construyéndose sobre el modelo de dominio definido en el milestone 0.
 
-Se considera que el producto mínimo es viable cuando dicho producto pasa los tests automáticos escritos a partir de la historia de usuario 1, que se desarrollan en base a los criterios de penalización definidos en dicha jornada de uusario, y que se ajustan al problema de HU001.
+El producto de este milestone tiene implementada la lógica mínima que permite clasificar informes tal y como se pide en la primera historia de usuario, devolviendo dicha clasificación.
+
+Se considera que el producto mínimo es viable cuando dicho producto produce la clasificación esperada según las especificaciones del problema de HU001 a partir del modelo definido en M0, y los tests redactados en base a los requisitos de HU001, que comprueban la relación entre los datos de entrada y los resultados, incluidos casos límites, son aprobados.
 
 ### [M2] Modelado del problema de las minutas (interna)
 

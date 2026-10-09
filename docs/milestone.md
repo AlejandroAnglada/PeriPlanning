@@ -12,9 +12,9 @@ Se considera que el producto mínimo es viable cuando existe una entidad en el l
 
 ### [M1] Lógica de negocio (interna)
 
-Este milestone se desarrolla sobre el problema comprendido en la historia de usuario 1 tras haber sido modelado en el milestone 0, partiéndose del mismo.
+Este milestone aborda el problema definido en la historia de usuario 1, construyéndose sobre el modelo de dominio definido en el milestone 0.
 
-Se considera que el producto mínimo es viable cuando el modelo de M0 pasa los tests que aplican las reglas de prioridad, basadas en los criterios de penalización mencionados en las [jornadas de usuario](../docs/jornadas_usuario.md#criterios-de-penalización).
+Se considera que el producto mínimo es viable cuando dicho producto pasa los tests automáticos escritos a partir de la historia de usuario 1, que se desarrollan en base a los criterios de penalización definidos en dicha la jornada de uusario.
 
 ### [M2] Modelado del problema de las minutas (interna)
 

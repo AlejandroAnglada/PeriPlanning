@@ -14,7 +14,7 @@ Se considera que el producto mínimo es viable cuando existe una entidad en el l
 
 Este milestone aborda el problema definido en la historia de usuario 1, construyéndose sobre el modelo de dominio definido en el milestone 0.
 
-Se considera que el producto mínimo es viable cuando dicho producto pasa los tests automáticos escritos a partir de la historia de usuario 1, que se desarrollan en base a los criterios de penalización definidos en dicha la jornada de uusario.
+Se considera que el producto mínimo es viable cuando dicho producto pasa los tests automáticos escritos a partir de la historia de usuario 1, que se desarrollan en base a los criterios de penalización definidos en dicha jornada de uusario, y que se ajustan al problema de HU001.
 
 ### [M2] Modelado del problema de las minutas (interna)
 

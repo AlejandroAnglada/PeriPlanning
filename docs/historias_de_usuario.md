@@ -6,7 +6,7 @@ Las historias de usuario reflejan los problemas a los que se enfrentan los usuar
 
 Tal y como se me presenta la tabla, no es fácil comprobar de un vistazo qué características tiene cada uno de los informes. Esto da lugar a un desorden que puede acabar haciendo que sufra penalizaciones, se acumule el trabajo y baje mucho el rendimiento. Entonces, es imperativo que se puedan ordenar los informes en función de su urgencia para evitarlo.
 
-Hay varios [criterios](jornadas_usuario.md#criterios_de_penalizacion) que determinan si soy penalizado o no.
+Hay varios [criterios](jornadas_usuario.md#criterios_de_penalización) que determinan si soy penalizado o no.
 
 ### [HU002] Cálculo de minutas a final de mes
 

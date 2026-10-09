@@ -1,5 +1,7 @@
 # Milestones
 
+**CAMBIO TEMPORAL PARA QUE GITHUB NO LOS DETECTE COMO RENOMBRADO**
+
 ### [M0] Modelado del problema de las peritaciones (interna)
 
 Este milestone modela el problema definido en HU001, y se parte del CSV descrito en la jornada de usuario.
@@ -31,3 +33,5 @@ Este producto mínimo será considerado viable si, partiendo de la tabla que con
 Este milestone usa como problema base la historia de usuario HU003, y parte de las versiones de los milestones M1 y M3. El producto es entregado como un servicio usable desplegado en la nube.
 
 Este producto mínimo es considerado viable cuando el servicio a ofrecer (es decir, tal y como se especifica en los milestones 1 y 3, poder obtener el informe más prioritario en el momento y poder calcular el sueldo a percibir dada la tabla de minutas) está alojado en la nube, y el usuario final puede acceder a dicho servicio desde el ordenador de la oficina y el teléfono móvil obteniendo el mismo resultado desde ambos.
+
+**CAMBIO TEMPORAL PARA QUE GITHUB NO LOS DETECTE COMO RENOMBRADO**
